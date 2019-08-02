@@ -8,7 +8,7 @@ class Project
   end
   
   def add_backer(backer)
-    @backers << Backer.new(backer)
+    @backers << backer.new(backer)
   end
   
 end
